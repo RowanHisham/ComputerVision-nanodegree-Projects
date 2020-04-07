@@ -6,7 +6,7 @@ The project pipeline starts with detecting all the faces in an image using a fac
 
 Haar Cascade classifier: https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
 
-The next step is to pre-process that image and feed it into a CNN facial keypoint detector, I used PyTorch framework to create the model, the CNN consisted of 4 Convolutional layers with batch normalization and dropout layers to avoid overfitting, followed by 3 fully connected layers. This facial keypoints dataset consists of 5770 color images extracted from the YouTube Faces Dataset. The model was trained for 5 epochs reaching an average loss of = 0.081.
+The next step is to pre-process that image and feed it into a CNN facial keypoint detector, I used PyTorch framework to create the model, the CNN consisted of 4 Convolutional layers with batch normalization and dropout layers to avoid overfitting, followed by 3 fully connected layers. This facial keypoints dataset consists of 5770 color images extracted from the YouTube Faces Dataset. The model was trained for 5 epochs reaching an average loss of = 0.072.
 
 The model output is 68 keypoints, with coordinates (x, y), for that face, which I used later to add filters on the detected faces in an input live stream from a camera, running only on the CPU not the GPU without any delay in the feed.
 

@@ -1,5 +1,4 @@
 import torch
-import torch.nn as nn
 from models import *
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, utils
@@ -52,11 +51,12 @@ def train_net(n_epochs):
 
 
 
+package_dir = os.path.dirname(os.path.abspath(__file__))
+
 net = Net()
+# net.load_state_dict(torch.load(package_dir + '/saved_models/model3.pt'))
 print(net)
 
-
-package_dir = os.path.dirname(os.path.abspath(__file__))
 
 data_transform = transforms.Compose([Rescale(250),
                                      RandomCrop(224),
@@ -68,7 +68,7 @@ transformed_dataset = FacialKeypointsDataset(csv_file= package_dir + '/data/trai
                                              root_dir= package_dir + '/data/training/',
                                              transform=data_transform)
 
-batch_size = 10
+batch_size = 30
 train_loader = DataLoader(transformed_dataset,
                           batch_size=batch_size,
                           shuffle=True,
@@ -89,15 +89,15 @@ print('Number of images: ', len(transformed_dataset))
 
 
 criterion = nn.SmoothL1Loss()
-optimizer = torch.optim.Adam(params=net.parameters(),lr=0.05)
+optimizer = torch.optim.Adam(params=net.parameters(),lr=0.01)
 
 
-n_epochs = 5
+n_epochs = 3
 train_net(n_epochs)
 
 #Save Model
 model_dir = package_dir +'/saved_models/'
-model_name = 'model2.pt'
+model_name = 'model4.pt'
 
 torch.save(net.state_dict(), model_dir+model_name)
 net.eval()

@@ -137,8 +137,7 @@ def addFilter(filter,roi,originalSize,image, x,y,w,h,x2, y2, w2, h2):
 
 package_dir = os.path.dirname(os.path.abspath(__file__))
 net = Net()
-net.eval()
-net.load_state_dict(torch.load(package_dir + '/saved_models/model3.pt'))
+net.load_state_dict(torch.load(package_dir + '/saved_models/model4.pt'))
 net.eval()
 
 cap = cv2.VideoCapture(0)
