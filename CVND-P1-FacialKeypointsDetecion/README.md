@@ -10,6 +10,7 @@ The next step is to pre-process that image and feed it into a CNN facial keypoin
 
 The model output is 68 keypoints, with coordinates (x, y), for that face, which I used later to add filters on the detected faces in an input live stream from a camera, running only on the CPU not the GPU without any delay in the feed.
 
+<img src="https://github.com/RowanHisham/README-Images/blob/master/facialKeypoints.jpg" alt="alt text" width="500" height="350">
 
 #### USE KEYBOARD BUTTONS TO CHANGE FILTERS IN LivePrediction.py SCRIPT
 ###### 1 -> NORMAL CAMERA
@@ -19,3 +20,4 @@ The model output is 68 keypoints, with coordinates (x, y), for that face, which 
 ###### 5 -> FILTER 2
 ###### q -> QUIT
 
+<img src="https://github.com/RowanHisham/README-Images/blob/master/facialKeypoints2.png" alt="alt text" width="550" height="350">
