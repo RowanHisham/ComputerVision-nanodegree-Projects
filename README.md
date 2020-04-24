@@ -21,7 +21,7 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network Enco
 <img src="https://github.com/RowanHisham/README-Images/blob/master/imageCaptioning4.png" alt="alt text" width="900" height="50">
 
 
-Some results from my image caaptioning model:
+Some results from my image captioning model:
 
 <img src="https://github.com/RowanHisham/README-Images/blob/master/imageCaptioning3.png" alt="alt text" width="300" height="250"><img src="https://github.com/RowanHisham/README-Images/blob/master/imageCaptioning2.png" alt="alt text" width="300" height="250"><img src="https://github.com/RowanHisham/README-Images/blob/master/imageCaptioning1.png" alt="alt text" width="300" height="250">
 
