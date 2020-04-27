@@ -16,13 +16,13 @@ Some results from my facial keypoint detection system:
 ## Project 2: Image Captioning
 In this project, I design and train a CNN-RNN (Convolutional Neural Network Encoder - Recurrent Neural Network Decoder) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in Context (MS COCO) dataset. Trained only on 1 epoch the model reached an average loss= 2.007 and preplixity= 7.4. The model structure is described in the following image:
 
-<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning6.jpg" alt="alt text" width="800" height="300">
+<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning6.png" alt="alt text" width="800" height="300">
 
-<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning4.jpg" alt="alt text" width="900" height="50">
+<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning4.png" alt="alt text" width="900" height="50">
 
 
 Some results from my image captioning model:
 
-<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning3.jpg" alt="alt text" width="300" height="250"><img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning2.jpg" alt="alt text" width="300" height="250"><img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning1.jpg" alt="alt text" width="300" height="250">
+<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning3.png" alt="alt text" width="300" height="250"><img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning2.png" alt="alt text" width="300" height="250"><img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/imageCaptioning1.png" alt="alt text" width="300" height="250">
 
 
