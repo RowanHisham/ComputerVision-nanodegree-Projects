@@ -11,7 +11,7 @@ Some results from my facial keypoint detection system:
 
 ###### USE KEYBOARD BUTTONS TO CHANGE FILTERS IN [LivePrediction.py](https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/CVND-P1-FacialKeypointsDetecion/LivePrediction.py) SCRIPT
 
-<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/facialKeypoints2.jpg" alt="alt text" width="500" height="350">
+<img src="https://github.com/RowanHisham/ComputerVision-nanodegree-Projects/blob/master/Images/facialKeypoints2.png" alt="alt text" width="500" height="350">
 
 ## Project 2: Image Captioning
 In this project, I design and train a CNN-RNN (Convolutional Neural Network Encoder - Recurrent Neural Network Decoder) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in Context (MS COCO) dataset. Trained only on 1 epoch the model reached an average loss= 2.007 and preplixity= 7.4. The model structure is described in the following image:
